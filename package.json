@@ -1,0 +1,15 @@
+{
+  "name": "mern-stack-social-media-app-main",
+  "version": "1.0.0",
+  "description": "This is the server-side component of a MERN (MongoDB, Express.js, React, Node.js) stack web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "cd server && npm start",
+  "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

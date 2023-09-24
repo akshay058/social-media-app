@@ -1,0 +1,5 @@
+core = to resolve cors issue
+express = library routing
+body parser =  to get body post request we can use *(express.json()* Instead
+dotenv = to solve password and database collection security
+
