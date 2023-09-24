@@ -73,42 +73,40 @@ To get the Social Media App up and running, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   Copy code
    cd social-media-app
 
 3. Install server dependencies:
 
    ```bash
-  Copy code
-  cd server
-  npm install
+   cd server
+   npm install
   
 4. Install client dependencies:
 
    ```bash
-  Copy code
-  cd ../client
-  npm install
+   cd ../client
+   npm install
 
 5. Configure Environment Variables:
 
- Create a .env file in the server directory and add the following environment variables:
+   ## Create a .env file in the server directory and add the following environment variables:
 
-   ```plaintext
-    PORT=3001
-    MONGODB_URI=mongodb://localhost:27017/socialmedia
-    JWT_SECRET=yoursecretkey
+  ```plaintext
+| PORT=3001
+  MONGODB_URI=mongodb://localhost:27017/socialmedia
+  JWT_SECRET=yoursecretkey
     
 - Replace yourusername with your MongoDB database name and yoursecretkey with a secret key for JWT token generation.
   
 
 - Create a .env file in the client directory and add the following environment variable:
-   ```plaintext
-   REACT_APP_API_URL=http://localhost:3001/api
 
-6. Start the server:
+  ```plaintext
+|    REACT_APP_API_URL=http://localhost:3001/api
 
-   ```bash
+- 6.Start the server:
+
+    ```bash
   cd server
   npm start
   
