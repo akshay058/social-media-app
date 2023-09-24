@@ -103,18 +103,21 @@ To get the Social Media App up and running, follow these steps:
 
 5. Configure Environment Variables: Create a .env file in the server directory and add the following environment variables:
 
-  ```bash
-  PORT=3001
-  MONGODB_URI=mongodb://localhost:27017/socialmedia
-  JWT_SECRET=yoursecretkey
+   ```bash
+   PORT=3001
+   MONGODB_URI=mongodb://localhost:27017/socialmedia
+   JWT_SECRET=yoursecretkey
+
+   ```
 
 - Replace yourusername with your MongoDB database name and yoursecretkey with a secret key for JWT token generation.
-
 
 - Create a .env file in the client directory and add the following environment variable:
 
   ```bash
-| REACT_APP_API_URL=http://localhost:3001/api
+  REACT_APP_API_URL=http://localhost:3001/api
+
+  ```
 
 - 6.Start the server:
 
@@ -122,41 +125,47 @@ To get the Social Media App up and running, follow these steps:
   cd server
   npm start
 
+  ```
 
 7. Start the client:
 
-  ```bash
-  cd client
-  npm start
+   ```bash
+   cd client
+   npm start
 
+   ```
 
 8. Open your browser and access the application at http://localhost:3000.
 
 ## Usage
+
 - Register for a new account or log in with an existing one.
 - Create posts, like and comment on posts, and interact with other users.
 - Explore user profiles, follow/unfollow users, and view your news feed.
 - Receive real-time notifications for likes and comments.
 - Enjoy a responsive design that adapts to different screen sizes.
 
-
 ## Folder Structure
 
-The project folder structure is as follows:
+- The project folder structure is as follows:
 
-```bash
-social-media-app/
-├── client/                # Frontend (React)
-├── server/                # Backend (Express.js)
-├── README.md              # This README file
-└── ...
+  ```bash
+  social-media-app/
+  ├── client/                # Frontend (React)
+  ├── server/                # Backend (Express.js)
+  ├── README.md              # This README file
+  └── ...
 
+  ```
 
 ## Contributing
+
 Contributions are welcome! Please follow the Contributing Guidelines.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Contact
+
 If you have any questions or suggestions, please contact on Linkedin.
