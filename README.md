@@ -17,29 +17,35 @@ Welcome to the Social Media App, a full-stack web application for connecting wit
 ## Features
 
 1. **User Authentication**:
+
    - Register and log in securely.
    - User profile management.
 
 2. **Create and Share Posts**:
+
    - Create, edit, and delete posts.
    - Add images, text, and links to posts.
    - Share posts with friends and followers.
 
 3. **Like and Comment**:
+
    - Like and unlike posts.
    - Add comments to posts.
    - Interact with other users through comments and likes.
 
 4. **News Feed**:
+
    - View a personalized news feed with posts from friends and followed users.
    - Stay updated with the latest posts.
 
 5. **User Profiles**:
+
    - Explore user profiles.
    - View posts, followers, and following lists.
    - Follow and unfollow users.
 
 6. **Real-time Notifications**:
+
    - Receive real-time notifications for new likes and comments.
    - Stay engaged with the community.
 
@@ -70,50 +76,56 @@ To get the Social Media App up and running, follow these steps:
    ```bash
    git clone https://github.com/akshay058/social-media-app.git
 
+   ```
+
 2. Navigate to the project directory:
 
    ```bash
    cd social-media-app
+
+   ```
 
 3. Install server dependencies:
 
    ```bash
    cd server
    npm install
-  
+
+   ```
+
 4. Install client dependencies:
 
    ```bash
    cd ../client
    npm install
 
-5. Configure Environment Variables:
+   ```
 
-   ## Create a .env file in the server directory and add the following environment variables:
+5. Configure Environment Variables: Create a .env file in the server directory and add the following environment variables:
 
-  ```plaintext
-| PORT=3001
+  ```bash
+  PORT=3001
   MONGODB_URI=mongodb://localhost:27017/socialmedia
   JWT_SECRET=yoursecretkey
-    
+
 - Replace yourusername with your MongoDB database name and yoursecretkey with a secret key for JWT token generation.
-  
+
 
 - Create a .env file in the client directory and add the following environment variable:
 
-  ```plaintext
-|    REACT_APP_API_URL=http://localhost:3001/api
+  ```bash
+| REACT_APP_API_URL=http://localhost:3001/api
 
 - 6.Start the server:
 
-    ```bash
+  ```bash
   cd server
   npm start
-  
+
 
 7. Start the client:
 
-   ```bash
+  ```bash
   cd client
   npm start
 
@@ -134,10 +146,10 @@ The project folder structure is as follows:
 
 ```bash
 social-media-app/
-  ├── client/                # Frontend (React)
-  ├── server/                # Backend (Express.js)
-  ├── README.md              # This README file
-  └── ...
+├── client/                # Frontend (React)
+├── server/                # Backend (Express.js)
+├── README.md              # This README file
+└── ...
 
 
 ## Contributing
