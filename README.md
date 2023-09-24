@@ -57,7 +57,6 @@ Welcome to the Social Media App, a full-stack web application for connecting wit
 - **Frontend**: React, Redux, Material-UI
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose
 - **Authentication**: JSON Web Tokens (JWT)
-- **Real-time Updates**: WebSocket (e.g., Socket.io)
 - **Styling**: CSS, SCSS
 
 ## Prerequisites
@@ -168,4 +167,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or suggestions, please contact on Linkedin.
+If you have any questions or suggestions, please contact on Linkedin: https://www.linkedin.com/in/akshay-jain-99085a76/
